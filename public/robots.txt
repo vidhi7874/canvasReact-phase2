@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://canvas.com/canvas8-reactjs
+
+# Sitemaps
+Sitemap: https://canvas.com/canvas8-reactjs/sitemap.xml

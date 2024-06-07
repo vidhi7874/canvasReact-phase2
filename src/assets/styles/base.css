@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+codemirror style  */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+.editor-title {
+  background-color: #263238;
+}
+
+/*  css for the scrollbar  */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 12px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  cursor: pointer;
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+.CodeMirror {
+  height: 415px !important;
+}
